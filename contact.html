@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Prime Site Developer Demo</title>
+  <meta name="description" content="Contact RS Flooring & Tile for a quote." />
+  <style>
+    :root{--line:rgba(255,255,255,.09);--text:#f5f3ee;--muted:#bcb4a7;--gold:#d7b26d;--gold2:#f0d39d;--shadow:0 20px 60px rgba(0,0,0,.35);--max:1180px}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:linear-gradient(180deg,#070708,#101114,#0a0a0b)}
+    a{text-decoration:none;color:inherit}.container{width:min(calc(100% - 32px),var(--max));margin:auto}
+    .topbar{position:sticky;top:0;z-index:40;background:rgba(10,10,11,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand img{width:170px;max-width:42vw}
+    .nav-links{display:flex;flex-wrap:wrap;gap:16px}.nav-links a{color:var(--muted);font-weight:700;font-size:14px}.nav-links a:hover,.nav-links a.active{color:#fff}
+    .hero{padding:56px 0 22px}.panel,.card{border:1px solid var(--line);border-radius:28px;background:linear-gradient(180deg,#111214,#18191d);box-shadow:var(--shadow)}
+    .panel{padding:28px} h1{font-size:clamp(36px,6vw,60px);margin:0 0 10px;letter-spacing:-1.5px}.lead{color:var(--muted);line-height:1.8;font-size:18px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding-bottom:55px}.card{padding:26px}
+    .info{display:grid;gap:14px}.item{padding:16px 18px;border-radius:18px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.02)}
+    .call-box{margin-top:20px;padding:20px;border-radius:18px;background:linear-gradient(135deg,var(--gold),var(--gold2));text-align:center;font-weight:800;font-size:18px;color:#111;box-shadow:0 16px 40px rgba(215,178,109,.20)}
+    @media(max-width:900px){.split{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><img src="96FF7232-22A9-46B4-B3DC-EEF3B6DEE705.jpeg" alt="RS Flooring & Tile logo"></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="panel">
+        <h1>Contact RS Flooring & Tile</h1>
+        <p class="lead">Ready to upgrade your shower, tile, or flooring? Call today to talk about your project and get a quote.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="card">
+        <h2 style="margin-top:0;font-size:34px;">Business Information</h2>
+        <div class="info">
+          <div class="item"><strong>Phone</strong><br><span style="color:var(--muted);">(540) 229-5991</span></div>
+          <div class="item"><strong>Business Name</strong><br><span style="color:var(--muted);">RS Flooring & Tile</span></div>
+          <div class="item"><strong>Services</strong><br><span style="color:var(--muted);">Tile, custom showers, bathroom finishes, and flooring</span></div>
+          <div class="item"><strong>Quotes</strong><br><span style="color:var(--muted);">Call to discuss your project and pricing</span></div>
+        </div>
+        <a href="tel:15402295991" class="call-box">Call Now: (540) 229-5991</a>
+      </div>
+
+      <div class="card">
+        <h2 style="margin-top:0;font-size:34px;">Why Reach Out?</h2>
+        <div class="info">
+          <div class="item"><strong>Premium visual work</strong><br><span style="color:var(--muted);">Projects that feel custom, polished, and high-end.</span></div>
+          <div class="item"><strong>Clean craftsmanship</strong><br><span style="color:var(--muted);">Detail-focused work with strong finish quality.</span></div>
+          <div class="item"><strong>Custom project feel</strong><br><span style="color:var(--muted);">Built for clients who want more than a basic install.</span></div>
+          <div class="item"><strong>Real project portfolio</strong><br><span style="color:var(--muted);">Actual completed work that gives confidence before the first call.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
