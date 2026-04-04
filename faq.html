@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ | Prime Site Developer Demo</title>
+  <meta name="description" content="Frequently asked questions for RS Flooring & Tile." />
+  <style>
+    :root{--line:rgba(255,255,255,.09);--text:#f5f3ee;--muted:#bcb4a7;--shadow:0 20px 60px rgba(0,0,0,.35);--max:980px}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:linear-gradient(180deg,#070708,#101114,#0a0a0b)}
+    a{text-decoration:none;color:inherit}.container{width:min(calc(100% - 32px),var(--max));margin:auto}
+    .topbar{position:sticky;top:0;z-index:40;background:rgba(10,10,11,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand img{width:170px;max-width:42vw}
+    .nav-links{display:flex;flex-wrap:wrap;gap:16px}.nav-links a{color:var(--muted);font-weight:700;font-size:14px}.nav-links a:hover,.nav-links a.active{color:#fff}
+    .hero{padding:56px 0 22px}.panel,.faq{border:1px solid var(--line);border-radius:28px;background:linear-gradient(180deg,#111214,#18191d);box-shadow:var(--shadow)}
+    .panel{padding:28px} h1{font-size:clamp(36px,6vw,60px);margin:0 0 10px;letter-spacing:-1.5px}.lead{color:var(--muted);line-height:1.8;font-size:18px}
+    .stack{display:grid;gap:16px;padding-bottom:55px}.faq{padding:24px}.faq h3{margin:0 0 10px;font-size:24px}.faq p{margin:0;color:var(--muted);line-height:1.8}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><img src="96FF7232-22A9-46B4-B3DC-EEF3B6DEE705.jpeg" alt="RS Flooring & Tile logo"></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a class="active" href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="panel">
+        <h1>Frequently Asked Questions</h1>
+        <p class="lead">A few common questions homeowners may have before reaching out about their project.</p>
+      </div>
+    </section>
+
+    <section class="stack">
+      <div class="faq">
+        <h3>What type of projects do you take on?</h3>
+        <p>RS Flooring & Tile focuses on custom showers, tile installation, bathroom upgrades, and flooring projects with a premium finish.</p>
+      </div>
+      <div class="faq">
+        <h3>Do you work on high-end bathrooms?</h3>
+        <p>Yes. The project gallery reflects a strong focus on luxury looks, statement tile, and clean custom execution.</p>
+      </div>
+      <div class="faq">
+        <h3>Can I call for a quote?</h3>
+        <p>Yes. You can call <strong>(540) 229-5991</strong> to discuss your project and request pricing.</p>
+      </div>
+      <div class="faq">
+        <h3>Do you handle full shower tile installs?</h3>
+        <p>Yes. Full wall tile, niches, benches, floors, and shower detail work are a major part of the service offering.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
