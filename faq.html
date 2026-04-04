@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RS Flooring & Tile | FAQ</title>
+  <meta name="description" content="Frequently asked questions for RS Flooring & Tile." />
+  <style>
+    :root{
+      --bg:#07111f;
+      --bg2:#0c1b30;
+      --panel:rgba(14,28,49,.78);
+      --panel2:rgba(19,39,67,.92);
+      --line:rgba(255,255,255,.12);
+      --text:#eef4ff;
+      --muted:#aabbd2;
+      --accent:#59c7ff;
+      --accent2:#79e5c4;
+      --shadow:0 18px 60px rgba(0,0,0,.35);
+      --max:980px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(89,199,255,.16), transparent 25%),
+        radial-gradient(circle at top right, rgba(121,229,196,.10), transparent 22%),
+        linear-gradient(180deg,#06101c 0%,#091423 50%,#07111f 100%);
+    }
+
+    a{text-decoration:none;color:inherit}
+
+    .container{
+      width:min(calc(100% - 32px),var(--max));
+      margin:auto;
+    }
+
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(6,14,25,.78);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .nav{
+      min-height:78px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      font-weight:800;
+    }
+
+    .brand img{
+      width:58px;
+      height:58px;
+      object-fit:cover;
+      border-radius:14px;
+      box-shadow:0 10px 30px rgba(89,199,255,.25);
+    }
+
+    .brand-text strong{
+      display:block;
+      font-size:18px;
+    }
+
+    .brand-text span{
+      display:block;
+      font-size:12px;
+      color:var(--muted);
+      font-weight:700;
+      margin-top:4px;
+    }
+
+    .nav-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:16px;
+      align-items:center;
+    }
+
+    .nav-links a{
+      color:var(--muted);
+      font-weight:700;
+      font-size:14px;
+      padding:10px 0;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active{
+      color:#fff;
+    }
+
+    .hero{
+      padding:58px 0 24px;
+    }
+
+    .hero-card,
+    .faq{
+      border:1px solid var(--line);
+      background:linear-gradient(180deg,var(--panel),var(--panel2));
+      border-radius:28px;
+      box-shadow:var(--shadow);
+    }
+
+    .hero-card{
+      padding:30px;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 14px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      color:#d8e8ff;
+      background:rgba(255,255,255,.04);
+      font-size:13px;
+      font-weight:700;
+      margin-bottom:18px;
+    }
+
+    .dot{
+      width:9px;
+      height:9px;
+      border-radius:50%;
+      background:var(--accent2);
+      box-shadow:0 0 0 6px rgba(121,229,196,.12);
+    }
+
+    h1{
+      font-size:clamp(38px,6vw,64px);
+      line-height:.98;
+      margin:0 0 14px;
+      letter-spacing:-1.5px;
+    }
+
+    .lead{
+      color:var(--muted);
+      line-height:1.8;
+      font-size:18px;
+      max-width:820px;
+    }
+
+    .stack{
+      display:grid;
+      gap:16px;
+      padding-bottom:20px;
+    }
+
+    .faq{
+      padding:24px;
+    }
+
+    .faq h3{
+      margin:0 0 10px;
+      font-size:24px;
+    }
+
+    .faq p{
+      margin:0;
+      color:var(--muted);
+      line-height:1.8;
+    }
+
+    .footer{
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      padding:20px 0 40px;
+      margin-top:20px;
+    }
+
+    .footer-row{
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    @media (max-width:1000px){
+      .footer-row{
+        display:block;
+      }
+      .nav{
+        padding:14px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="logo.jpeg" alt="RS Flooring & Tile logo">
+        <div class="brand-text">
+          <strong>RS Flooring & Tile</strong>
+          <span>Luxury Tile, Showers, Flooring & Backsplashes</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a class="active" href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="eyebrow"><span class="dot"></span> Clear Answers. Less Hesitation.</div>
+        <h1>Frequently Asked Questions</h1>
+        <p class="lead">
+          This page helps customers feel informed before they ever reach out. It removes hesitation and makes the business look more prepared and professional.
+        </p>
+      </div>
+    </section>
+
+    <section class="stack">
+      <div class="faq">
+        <h3>What type of projects do you take on?</h3>
+        <p>RS Flooring & Tile focuses on custom showers, tile installation, flooring, bathroom finishes, and kitchen backsplash projects.</p>
+      </div>
+
+      <div class="faq">
+        <h3>Do you handle full shower tile installs?</h3>
+        <p>Yes. Full wall tile, niches, benches, floors, and shower detail work are a major part of the service offering.</p>
+      </div>
+
+      <div class="faq">
+        <h3>Do you work on high-end bathrooms?</h3>
+        <p>Yes. The project gallery reflects a strong focus on luxury looks, premium finishes, and polished full-room results.</p>
+      </div>
+
+      <div class="faq">
+        <h3>Can I call for a quote?</h3>
+        <p>Yes. You can call <strong>(540) 229-5991</strong> to discuss your project and request pricing.</p>
+      </div>
+
+      <div class="faq">
+        <h3>Do you only do bathrooms?</h3>
+        <p>No. The site also shows flooring upgrades and kitchen backsplash work, which helps highlight a wider service range.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <div>© RS Flooring & Tile</div>
+      <div>(540) 229-5991 • Showers • Tile • Flooring • Backsplashes</div>
+    </div>
+  </footer>
+</body>
+</html>
