@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Prime Site Developer Demo</title>
+  <meta name="description" content="Flooring and tile services from RS Flooring & Tile." />
+  <style>
+    :root{--line:rgba(255,255,255,.09);--text:#f5f3ee;--muted:#bcb4a7;--gold:#d7b26d;--gold2:#f0d39d;--shadow:0 20px 60px rgba(0,0,0,.35);--max:1180px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:linear-gradient(180deg,#070708,#101114,#0a0a0b)}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(calc(100% - 32px),var(--max));margin:auto}
+    .topbar{position:sticky;top:0;z-index:40;background:rgba(10,10,11,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand img{width:170px;max-width:42vw}
+    .nav-links{display:flex;flex-wrap:wrap;gap:16px}
+    .nav-links a{color:var(--muted);font-weight:700;font-size:14px}
+    .nav-links a:hover,.nav-links a.active{color:#fff}
+    .hero{padding:56px 0 20px}
+    .hero-card,.card{border:1px solid var(--line);border-radius:28px;background:linear-gradient(180deg,#111214,#18191d);box-shadow:var(--shadow)}
+    .hero-card{padding:28px}
+    h1{font-size:clamp(36px,6vw,60px);margin:0 0 10px;letter-spacing:-1.5px}
+    .lead{color:var(--muted);line-height:1.8;font-size:18px}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;padding:24px 0 55px}
+    .card{padding:26px}
+    .icon{width:56px;height:56px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111;font-size:24px;font-weight:900;margin-bottom:14px}
+    .card h3{margin:0 0 10px;font-size:28px}
+    .card p{margin:0 0 14px;color:var(--muted);line-height:1.8}
+    .card ul{margin:0;padding-left:18px;line-height:1.8;color:#ebe4d8}
+    @media(max-width:920px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><img src="96FF7232-22A9-46B4-B3DC-EEF3B6DEE705.jpeg" alt="RS Flooring & Tile logo"></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Our Services</h1>
+        <p class="lead">RS Flooring & Tile now has a stronger service mix to show: custom showers, tile installation, flooring, bathroom finish work, and kitchen backsplash projects.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <div class="icon">◆</div>
+        <h3>Custom Showers</h3>
+        <p>Luxury shower spaces with clean detail, strong layout, and visually impressive finishes.</p>
+        <ul>
+          <li>Full shower wall tile</li>
+          <li>Benches and niches</li>
+          <li>Glass-ready designs</li>
+          <li>Custom layout work</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">▦</div>
+        <h3>Tile Installation</h3>
+        <p>Precision tile work for bathrooms, accent walls, floors, and premium interior spaces.</p>
+        <ul>
+          <li>Bathroom tile</li>
+          <li>Wall tile</li>
+          <li>Floor tile installation</li>
+          <li>Decorative detail work</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">▤</div>
+        <h3>Flooring</h3>
+        <p>Beautiful hard-surface flooring upgrades that change the look and feel of the room.</p>
+        <ul>
+          <li>Tile flooring</li>
+          <li>Room-to-room upgrades</li>
+          <li>Modern finish options</li>
+          <li>Premium visual results</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">★</div>
+        <h3>Bathroom Remodel Finishes</h3>
+        <p>Vanities, tubs, surrounding tile, and polished finishes that make the whole bathroom feel more custom.</p>
+        <ul>
+          <li>Luxury bathroom detailing</li>
+          <li>Freestanding tub surroundings</li>
+          <li>Marble-look tile spaces</li>
+          <li>Modern premium styling</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">■</div>
+        <h3>Kitchen Backsplashes</h3>
+        <p>Clean, stylish backsplash installations that bring more character and finish quality to the kitchen.</p>
+        <ul>
+          <li>Glossy backsplash tile</li>
+          <li>Modern kitchen detail work</li>
+          <li>Clean grout line finish</li>
+          <li>Warm or modern design styles</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">✓</div>
+        <h3>Custom Interior Tile Work</h3>
+        <p>More than just standard installs — projects designed to feel intentional, balanced, and visually high-end.</p>
+        <ul>
+          <li>Rustic to modern style range</li>
+          <li>Strong material variety</li>
+          <li>Custom detail focus</li>
+          <li>High-end finished look</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
